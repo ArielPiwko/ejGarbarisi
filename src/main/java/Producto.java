@@ -5,6 +5,12 @@ public class Producto {
     private float gananciasImpositivas;
     private TipoProducto tipo;
 
+    public Producto(float precioBaseProducto, float gananciasImpositivas, TipoProducto tipo) {
+        this.precioBaseProducto = precioBaseProducto;
+        this.gananciasImpositivas = gananciasImpositivas;
+        this.tipo = tipo;
+    }
+
 
     public float precioFinal() {
         return 0;
@@ -26,5 +32,7 @@ public class Producto {
     public void setGananciasImpositivas(float gananciasImpositivas) {
         this.gananciasImpositivas = gananciasImpositivas;
     }
+
+    public TipoProducto getTipoProducto() { return tipo; }
 }
 
