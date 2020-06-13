@@ -1,4 +1,4 @@
-package main.java;
+package Dominio;
 
 public class Producto {
     private float precioBaseProducto;

@@ -1,6 +1,6 @@
-package main.java;
+package Dominio;
 
-import main.Exceptions.ImpuestoException;
+import main.java.Exceptions.ImpuestoException;
 import java.util.ArrayList;
 import java.util.List;
 

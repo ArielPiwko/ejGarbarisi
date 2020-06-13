@@ -1,4 +1,4 @@
-package main.java;
+package Dominio;
 
 public class IVA implements ImpuestoAplicable {
     private double porcentajeIVA = 0.21;

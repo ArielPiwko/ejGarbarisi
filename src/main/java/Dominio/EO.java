@@ -1,4 +1,4 @@
-package main.java;
+package Dominio;
 
 public class EO implements ImpuestoAplicable{
     private double factorGananciasImp = 4;
