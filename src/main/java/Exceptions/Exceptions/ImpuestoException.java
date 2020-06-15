@@ -1,4 +1,4 @@
-package main.java.Exceptions;
+package Exceptions.Exceptions;
 
 public class ImpuestoException extends Exception {
         public ImpuestoException(String errorMessage){

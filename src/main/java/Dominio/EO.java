@@ -1,6 +1,7 @@
 package Dominio;
 
 public class EO implements ImpuestoAplicable{
+
     private double factorGananciasImp = 4;
     private double factorPrecioBase = 0.5;
     private double gananciasImpositivas;

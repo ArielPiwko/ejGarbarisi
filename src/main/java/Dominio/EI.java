@@ -1,6 +1,7 @@
 package Dominio;
 
 public class EI implements ImpuestoAplicable{
+
     private double factorGananciasImp = 0.3;
     private double factorPrecioBase = 4;
     private double gananciasImpositivas;

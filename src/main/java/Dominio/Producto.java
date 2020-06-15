@@ -12,10 +12,9 @@ public class Producto {
     }
 
 
-    public float precioFinal() {
-        return 0;
+    public double precioFinal() {
+        return (precioBaseProducto + tipo.sumaTotalImpuestos(this));
     }
-
 
     public float getPrecioBaseProducto() {
         return precioBaseProducto;
