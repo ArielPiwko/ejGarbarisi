@@ -28,4 +28,9 @@ public class Sucursal {
 
         }
 
+
+
+    public List<ObserverVenta> getObserversVenta() {
+        return observersVenta;
+    }
 }

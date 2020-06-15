@@ -5,6 +5,7 @@ import java.util.TimeZone;
 
 public class ContadorVentas implements ObserverVenta {
 
+
     private int contador=0;
     Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
     private int diaActual = calendar.get(Calendar.DATE);
@@ -26,4 +27,6 @@ public class ContadorVentas implements ObserverVenta {
         this.diaActual = calendar.get(Calendar.DATE);
     }
 
+
+    public int getContador() { return contador; }
 }

@@ -15,13 +15,12 @@ public class TipoProducto {
 
     public void agregarImpuesto(ImpuestoAplicable impuestoNuevo) throws ImpuestoException {
 
-      /*  if ((tipo = "electronico") & ((impuestoNuevo.getClass().equals(EI.class))){
+        if ((tipo == "electronico") & (impuestoNuevo.getClass()==(EI.class))){
             throw new ImpuestoException("No se le puede aplicar el impuesto EI a un producto electronico.");
         }
-        if ((tipo = "de hogar") & ((impuestoNuevo.getClass().equals(EO.class))){
+        if ((tipo == "de hogar") & (impuestoNuevo.getClass().equals(EO.class))){
             throw new ImpuestoException("No se le puede aplicar el impuesto EO a un producto de hogar.");
         }
-          no funciona ^ como comparo clases?   */
 
         if (!impuestos.contains(impuestoNuevo)) {
             this.impuestos.add(impuestoNuevo);
